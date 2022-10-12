@@ -1,0 +1,15 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  font-size: 40px;
+}
