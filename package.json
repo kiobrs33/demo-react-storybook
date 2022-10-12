@@ -4,6 +4,7 @@
   "description": "My first post component",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production",
     "dev": "webpack serve --mode=development",
     "storybook": "start-storybook -p 6006",
@@ -13,6 +14,8 @@
   "author": "Rene Lozano",
   "license": "ISC",
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
